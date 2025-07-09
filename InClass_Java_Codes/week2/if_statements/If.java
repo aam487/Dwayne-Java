@@ -21,5 +21,6 @@ public class If {
     }
  }
 }
+OUTPUT:
 a is positive
 b is negative
