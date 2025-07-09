@@ -15,6 +15,24 @@ public class helloDwayne {
     System.out.println();
     System.out.print("Hello, Dwayne how are you!!!"); //Prints out Hello, Dwayne how are you!!!
     System.out.println();
+    System.out.printf("%4s", "1234"); //Formats the output to take up 4 spaces
+    System.out.printf("%4s", " 5678"); //Formats the output to take up 4 spaces
+    System.out.println(); //Prints a new line
+    System.out.printf("%-4s", "1234"); //Formats the output to take up 4 spaces, left aligned
+    System.out.printf("%-4s", " 5678"); //Formats the output to take up 4 spaces, left aligned
+    System.out.println(); //Prints a new line
+
+  }
+
+}
+OUtPUT:
+Hello, Dwayne how are you!!!
+
+Hello, Dwayne how are you!!!
+
+Hello, Dwayne how are you!!!
+1234 5678
+1234 5678
 
   }
 
