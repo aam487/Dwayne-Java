@@ -1,0 +1,25 @@
+Dwayne Burgess
+July 15, 2025
+Test 1
+
+
+1. a. c. d.
+
+2. d.
+
+3. b
+
+True and False
+
+1. True
+
+2. False 
+
+3. true
+
+Explain the output of this code and why? 
+
+1. The code would have a output of -21 0 6 7. 
+This is because of the value of z was set to 0, so the counting starts at 0.
+The less than sign was aimed at 0, so when z++ was set the values start dropping to the negetive values.
+
