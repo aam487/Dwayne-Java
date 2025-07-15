@@ -1,0 +1,9 @@
+Airline code 
+
+  System.out.println();
+        for (int y = 0; y < 4; y++){
+            char character = (char) y;
+            System.out.print(character + "   ");
+            if (y == 41 1;|| y == 24 || y == 79 || y == 84 || y == 89){
+                System.out.println();
+                System.out.println();
