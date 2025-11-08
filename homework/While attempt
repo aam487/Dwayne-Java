@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+public class font { 
+    public static void main(String[] args) { 
+
+    int d = 0; //controles the range within the wild loop
+    boolean hi = true; //while loop
+    int choice = 0; // holds the value of the choices in the if statements.
+
+    Scanner keybard = new Scanner(System.in); 
+
+System.out.println("1. This is the altimate test");
+System.out.println("2. This is a test");
+System.out.println("3. This is c language");
+System.out.println("4. Quit"); 
+System.out.println("Chose a test?");
+
+while (hi) {
+    
+choice = keybard.nextInt(); 
+
+if (choice == 1){
+    System.out.println("This is a test");
+    break; 
+    }else if (choice == 2){
+    System.out.println("This is the altimate test");
+    break; 
+    }else if (choice == 3){
+    System.out.println("This is c language");
+    break;     
+    }else if (choice == 4){
+    System.out.println("Quit");
+     break; 
+    }else if (d <= 3){
+        System.out.println("You have exceed your limit");
+    }
+
+    
+}
+  }
+} 
+
+//So this whole time I was doing the while loop wrong.
+
+
+
